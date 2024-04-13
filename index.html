@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Realistic Calculator</title>
     <style>
-        /* Inline CSS for the realistic calculator */
+        
         body {
             display: flex;
             justify-content: center;
@@ -112,7 +112,7 @@
     </div>
 
     <script>
-        // JavaScript code for the realistic calculator
+
         const display = document.getElementById('display');
 
         function appendToDisplay(value) {
@@ -158,7 +158,7 @@
             }
         }
 
-        // Function to calculate sine
+        // Function to calculate sin
         function calculateSin() {
             try {
                 display.textContent = Math.sin(eval(display.textContent));
@@ -167,7 +167,7 @@
             }
         }
 
-        // Function to calculate cosine
+        // Function to calculate cosin
         function calculateCos() {
             try {
                 display.textContent = Math.cos(eval(display.textContent));
@@ -176,7 +176,7 @@
             }
         }
 
-        // Function to calculate tangent
+        // Function to calculate tan
         function calculateTan() {
             try {
                 display.textContent = Math.tan(eval(display.textContent));
@@ -195,7 +195,7 @@
             }
         }
 
-        // Add event listener for keyboard input
+        // keyboard input
         document.addEventListener('keydown', function(event) {
             const key = event.key;
             // Handle number and operator inputs
